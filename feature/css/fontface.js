@@ -1,6 +1,6 @@
 /** Original source code: https://github.com/Modernizr/Modernizr/blob/v3.7.1/feature-detects/css/fontface.js **/
-import Modernizr from '../src/Modernizr.js';
-import testStyles from '../src/testStyles.js';
+import Modernizr from '../../src/Modernizr.js';
+import testStyles from '../../src/testStyles.js';
 
 var _isBrowser = typeof window !== "undefined";
 
@@ -26,4 +26,4 @@ var fontface = _isBrowser && function () {
 }();
 
 export default fontface;
-export default Modernizr.fontface;
+// export default Modernizr.fontface;

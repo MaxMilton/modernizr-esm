@@ -1,9 +1,11 @@
 /** Original source code: https://github.com/Modernizr/Modernizr/blob/v3.7.1/feature-detects/workers/transferables.js **/
-import Modernizr, { addTest, createAsyncTestListener } from "../src/Modernizr.js";
-import './blob.js';
-import './url/bloburls.js';
-import './workers/webworkers.js';
-import './typed-arrays.js';
+
+import Modernizr, { addTest, createAsyncTestListener } from "../../src/Modernizr.js";
+import '../blob.js';
+import '../url/bloburls.js';
+import '../typed-arrays.js';
+import './webworkers.js';
+
 Modernizr.addAsyncTest(function () {
   var prerequisites = !!(Modernizr.blobconstructor && Modernizr.bloburls && Modernizr.webworkers && Modernizr.typedarrays);
 

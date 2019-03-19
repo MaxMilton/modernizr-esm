@@ -1,8 +1,9 @@
 /** Original source code: https://github.com/Modernizr/Modernizr/blob/v3.7.1/feature-detects/css/pseudoanimations.js **/
-import Modernizr from '../src/Modernizr.js';
-import testStyles from '../src/testStyles.js';
-import prefixes from '../src/prefixes.js';
-import './css/animations.js';
+import Modernizr from '../../src/Modernizr.js';
+import testStyles from '../../src/testStyles.js';
+import prefixes from '../../src/prefixes.js';
+import './animations.js';
+
 Modernizr.addTest('csspseudoanimations', function () {
   var result = false;
 
